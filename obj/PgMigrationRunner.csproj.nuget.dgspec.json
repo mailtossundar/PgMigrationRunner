@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\PgMigrationRunner\\PgMigrationRunner.csproj": {}
+    "C:\\projects\\PgMigrationRunner\\PgMigrationRunner.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\PgMigrationRunner\\PgMigrationRunner.csproj": {
+    "C:\\projects\\PgMigrationRunner\\PgMigrationRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PgMigrationRunner\\PgMigrationRunner.csproj",
+        "projectUniqueName": "C:\\projects\\PgMigrationRunner\\PgMigrationRunner.csproj",
         "projectName": "PgMigrationRunner",
-        "projectPath": "C:\\Projects\\PgMigrationRunner\\PgMigrationRunner.csproj",
+        "projectPath": "C:\\projects\\PgMigrationRunner\\PgMigrationRunner.csproj",
         "packagesPath": "C:\\Users\\sunda\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PgMigrationRunner\\obj\\",
+        "outputPath": "C:\\projects\\PgMigrationRunner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunda\\AppData\\Roaming\\NuGet\\NuGet.Config"

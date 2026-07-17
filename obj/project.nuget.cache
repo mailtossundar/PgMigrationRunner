@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lp7Uu0tZUMI=",
+  "dgSpecHash": "NpSE3pqSvLA=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\PgMigrationRunner\\PgMigrationRunner.csproj",
+  "projectFilePath": "C:\\projects\\PgMigrationRunner\\PgMigrationRunner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\sunda\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
