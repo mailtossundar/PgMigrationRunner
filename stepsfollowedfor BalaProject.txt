@@ -1,0 +1,35 @@
+708105782
+
+Upwork
+Freelancer.com
+Toptal (more selective)
+Fiverr
+LinkedIn (contract opportunities)
+Wellfound (formerly AngelList)
+
+Many companies also hire Azure DevOps engineers on 6–12 month contract roles, which can feel similar to freelancing.
+
+to verify the dotnet installed or now:
+
+
+
+using this command verified the dotnet is installed or not. 
+dir C:\ /s /b | findstr "dotnet.exe"
+
+during the verification donetn not installed hence downloaded andinstaled the dotnet. 
+after that verfied the dotnet installed using the commands 
+
+C:\Program Files>dotnet --version 
+8.0.423
+
+C:\Program Files>
+
+next verified the sdks using the follwing command. 
+
+C:\Program Files>dotnet --list-sdks
+8.0.423 [C:\Program Files\dotnet\sdk]
+
+C:\Program Files>
+
+finally verified 
+
