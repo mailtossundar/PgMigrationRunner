@@ -1,0 +1,36 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+variables:
+  BuildConfiguration: Release
+
+steps:
+
+- checkout: self
+
+- task: UseDotNet@2
+  displayName: Install .NET 8 SDK
+  inputs:
+    packageType: sdk
+    version: 8.0.x
+
+- script: |
+    dotnet restore
+  displayName: Restore Packages
+
+- script: |
+    dotnet build --configuration $(BuildConfiguration) --no-restore
+  displayName: Build
+
+- script: |
+    dotnet publish --configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)
+  displayName: Publish Application
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish Artifact
+  inputs:
+    PathtoPublish: $(Build.ArtifactStagingDirectory)
+    ArtifactName: PgMigrationRunner
