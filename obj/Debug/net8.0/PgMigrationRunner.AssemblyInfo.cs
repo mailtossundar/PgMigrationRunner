@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PgMigrationRunner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1915a22f5844143586c1c400bc62d8205063e1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b39796748ec6df5217571e324b0d432740d1212")]
 [assembly: System.Reflection.AssemblyProductAttribute("PgMigrationRunner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PgMigrationRunner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
